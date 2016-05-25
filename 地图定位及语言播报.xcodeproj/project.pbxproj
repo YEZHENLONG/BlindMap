@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2516A8941CE96560003458D6 /* NaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516A8931CE96560003458D6 /* NaviViewController.m */; };
+		2516A8961CE96588003458D6 /* NaviViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2516A8951CE96588003458D6 /* NaviViewController.xib */; };
+		2516A8991CE9693A003458D6 /* MapNavigationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516A8981CE9693A003458D6 /* MapNavigationManager.m */; };
+		2516A8E91CE9758B003458D6 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2516A8E81CE9758B003458D6 /* MAMapKit.framework */; };
+		2529D45F1CDC3F9700066A7F /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2529D45E1CDC3F9700066A7F /* AMapSearchKit.framework */; };
+		25FC26411C72C6AE00D16916 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FC26401C72C6AE00D16916 /* main.m */; };
+		25FC26441C72C6AE00D16916 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FC26431C72C6AE00D16916 /* AppDelegate.m */; };
+		25FC26471C72C6AE00D16916 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FC26461C72C6AE00D16916 /* ViewController.m */; };
+		25FC264A1C72C6AE00D16916 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25FC26481C72C6AE00D16916 /* Main.storyboard */; };
+		25FC264C1C72C6AE00D16916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25FC264B1C72C6AE00D16916 /* Assets.xcassets */; };
+		25FC264F1C72C6AE00D16916 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25FC264D1C72C6AE00D16916 /* LaunchScreen.storyboard */; };
+		25FC265A1C72C6AE00D16916 /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FC26591C72C6AE00D16916 /* _________Tests.m */; };
+		25FC26651C72C6AE00D16916 /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FC26641C72C6AE00D16916 /* _________UITests.m */; };
+		25FC26751C72C94D00D16916 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 25FC26741C72C94D00D16916 /* AMap.bundle */; };
+		25FC26771C72C97C00D16916 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FC26761C72C97C00D16916 /* UIKit.framework */; };
+		25FC26791C72C98A00D16916 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FC26781C72C98A00D16916 /* Foundation.framework */; };
+		25FC267B1C72C99700D16916 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FC267A1C72C99700D16916 /* CoreGraphics.framework */; };
+		25FC267D1C72C9A600D16916 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FC267C1C72C9A600D16916 /* QuartzCore.framework */; };
+		25FC267F1C72C9B600D16916 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FC267E1C72C9B600D16916 /* OpenGLES.framework */; };
+		25FC26811C72C9C200D16916 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FC26801C72C9C200D16916 /* CoreLocation.framework */; };
+		25FC26831C72C9D000D16916 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FC26821C72C9D000D16916 /* CoreTelephony.framework */; };
+		25FC26851C72C9E600D16916 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FC26841C72C9E600D16916 /* SystemConfiguration.framework */; };
+		25FC26871C72C9F900D16916 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FC26861C72C9F900D16916 /* libz.tbd */; };
+		25FC26891C72CA0A00D16916 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FC26881C72CA0A00D16916 /* libstdc++.6.0.9.tbd */; };
+		25FC268B1C72CA1600D16916 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FC268A1C72CA1600D16916 /* libc++.tbd */; };
+		25FC268D1C72CA2400D16916 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FC268C1C72CA2400D16916 /* Security.framework */; };
+		25FC26941C756C0C00D16916 /* AMapLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FC26931C756C0C00D16916 /* AMapLocationKit.framework */; };
+		25FC269C1C78B69F00D16916 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FC269B1C78B69F00D16916 /* iflyMSC.framework */; };
+		25FC26E71C795B2400D16916 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FC26E61C795B2400D16916 /* AVFoundation.framework */; };
+		25FC26E91C795B3100D16916 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FC26E81C795B3100D16916 /* AddressBook.framework */; };
+		25FC26EB1C795B3B00D16916 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FC26EA1C795B3B00D16916 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25FC26561C72C6AE00D16916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25FC26341C72C6AE00D16916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25FC263B1C72C6AE00D16916;
+			remoteInfo = "地图定位及语言播报";
+		};
+		25FC26611C72C6AE00D16916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25FC26341C72C6AE00D16916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25FC263B1C72C6AE00D16916;
+			remoteInfo = "地图定位及语言播报";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2516A8921CE96560003458D6 /* NaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaviViewController.h; sourceTree = "<group>"; };
+		2516A8931CE96560003458D6 /* NaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaviViewController.m; sourceTree = "<group>"; };
+		2516A8951CE96588003458D6 /* NaviViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NaviViewController.xib; sourceTree = "<group>"; };
+		2516A8971CE9693A003458D6 /* MapNavigationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapNavigationManager.h; sourceTree = "<group>"; };
+		2516A8981CE9693A003458D6 /* MapNavigationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapNavigationManager.m; sourceTree = "<group>"; };
+		2516A8E81CE9758B003458D6 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		2529D45E1CDC3F9700066A7F /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		25FC263C1C72C6AE00D16916 /* 地图定位及语言播报.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "地图定位及语言播报.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FC26401C72C6AE00D16916 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25FC26421C72C6AE00D16916 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25FC26431C72C6AE00D16916 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25FC26451C72C6AE00D16916 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25FC26461C72C6AE00D16916 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25FC26491C72C6AE00D16916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25FC264B1C72C6AE00D16916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25FC264E1C72C6AE00D16916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25FC26501C72C6AE00D16916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25FC26551C72C6AE00D16916 /* 地图定位及语言播报Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "地图定位及语言播报Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FC26591C72C6AE00D16916 /* _________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________Tests.m"; sourceTree = "<group>"; };
+		25FC265B1C72C6AE00D16916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25FC26601C72C6AE00D16916 /* 地图定位及语言播报UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "地图定位及语言播报UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FC26641C72C6AE00D16916 /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
+		25FC26661C72C6AE00D16916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25FC26741C72C94D00D16916 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = ../../Downloads/MAMapKit.framework/AMap.bundle; sourceTree = "<group>"; };
+		25FC26761C72C97C00D16916 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25FC26781C72C98A00D16916 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25FC267A1C72C99700D16916 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25FC267C1C72C9A600D16916 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		25FC267E1C72C9B600D16916 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		25FC26801C72C9C200D16916 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		25FC26821C72C9D000D16916 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		25FC26841C72C9E600D16916 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		25FC26861C72C9F900D16916 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		25FC26881C72CA0A00D16916 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		25FC268A1C72CA1600D16916 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		25FC268C1C72CA2400D16916 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		25FC26931C756C0C00D16916 /* AMapLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapLocationKit.framework; path = ../Extern/AMapLocationKit.framework; sourceTree = "<group>"; };
+		25FC269B1C78B69F00D16916 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		25FC26E61C795B2400D16916 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		25FC26E81C795B3100D16916 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		25FC26EA1C795B3B00D16916 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25FC26391C72C6AE00D16916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FC26851C72C9E600D16916 /* SystemConfiguration.framework in Frameworks */,
+				25FC26EB1C795B3B00D16916 /* AudioToolbox.framework in Frameworks */,
+				25FC26E91C795B3100D16916 /* AddressBook.framework in Frameworks */,
+				25FC26E71C795B2400D16916 /* AVFoundation.framework in Frameworks */,
+				25FC26831C72C9D000D16916 /* CoreTelephony.framework in Frameworks */,
+				25FC26871C72C9F900D16916 /* libz.tbd in Frameworks */,
+				25FC269C1C78B69F00D16916 /* iflyMSC.framework in Frameworks */,
+				2529D45F1CDC3F9700066A7F /* AMapSearchKit.framework in Frameworks */,
+				25FC26941C756C0C00D16916 /* AMapLocationKit.framework in Frameworks */,
+				25FC268D1C72CA2400D16916 /* Security.framework in Frameworks */,
+				25FC268B1C72CA1600D16916 /* libc++.tbd in Frameworks */,
+				25FC26891C72CA0A00D16916 /* libstdc++.6.0.9.tbd in Frameworks */,
+				25FC26811C72C9C200D16916 /* CoreLocation.framework in Frameworks */,
+				2516A8E91CE9758B003458D6 /* MAMapKit.framework in Frameworks */,
+				25FC267F1C72C9B600D16916 /* OpenGLES.framework in Frameworks */,
+				25FC267D1C72C9A600D16916 /* QuartzCore.framework in Frameworks */,
+				25FC267B1C72C99700D16916 /* CoreGraphics.framework in Frameworks */,
+				25FC26791C72C98A00D16916 /* Foundation.framework in Frameworks */,
+				25FC26771C72C97C00D16916 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FC26521C72C6AE00D16916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FC265D1C72C6AE00D16916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2529D4731CDD891A00066A7F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2529D4741CDD891A00066A7F /* Controller */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2529D4741CDD891A00066A7F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2516A8971CE9693A003458D6 /* MapNavigationManager.h */,
+				2516A8981CE9693A003458D6 /* MapNavigationManager.m */,
+				2516A8921CE96560003458D6 /* NaviViewController.h */,
+				2516A8931CE96560003458D6 /* NaviViewController.m */,
+				2516A8951CE96588003458D6 /* NaviViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		25FC26331C72C6AE00D16916 = {
+			isa = PBXGroup;
+			children = (
+				25FC26911C72DA6300D16916 /* Framework */,
+				25FC26741C72C94D00D16916 /* AMap.bundle */,
+				25FC263E1C72C6AE00D16916 /* 地图定位及语言播报 */,
+				25FC26581C72C6AE00D16916 /* 地图定位及语言播报Tests */,
+				25FC26631C72C6AE00D16916 /* 地图定位及语言播报UITests */,
+				25FC263D1C72C6AE00D16916 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25FC263D1C72C6AE00D16916 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25FC263C1C72C6AE00D16916 /* 地图定位及语言播报.app */,
+				25FC26551C72C6AE00D16916 /* 地图定位及语言播报Tests.xctest */,
+				25FC26601C72C6AE00D16916 /* 地图定位及语言播报UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25FC263E1C72C6AE00D16916 /* 地图定位及语言播报 */ = {
+			isa = PBXGroup;
+			children = (
+				2529D4731CDD891A00066A7F /* Classes */,
+				25FC26421C72C6AE00D16916 /* AppDelegate.h */,
+				25FC26431C72C6AE00D16916 /* AppDelegate.m */,
+				25FC26451C72C6AE00D16916 /* ViewController.h */,
+				25FC26461C72C6AE00D16916 /* ViewController.m */,
+				25FC26481C72C6AE00D16916 /* Main.storyboard */,
+				25FC264B1C72C6AE00D16916 /* Assets.xcassets */,
+				25FC264D1C72C6AE00D16916 /* LaunchScreen.storyboard */,
+				25FC26501C72C6AE00D16916 /* Info.plist */,
+				25FC263F1C72C6AE00D16916 /* Supporting Files */,
+			);
+			path = "地图定位及语言播报";
+			sourceTree = "<group>";
+		};
+		25FC263F1C72C6AE00D16916 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25FC26401C72C6AE00D16916 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25FC26581C72C6AE00D16916 /* 地图定位及语言播报Tests */ = {
+			isa = PBXGroup;
+			children = (
+				25FC26591C72C6AE00D16916 /* _________Tests.m */,
+				25FC265B1C72C6AE00D16916 /* Info.plist */,
+			);
+			path = "地图定位及语言播报Tests";
+			sourceTree = "<group>";
+		};
+		25FC26631C72C6AE00D16916 /* 地图定位及语言播报UITests */ = {
+			isa = PBXGroup;
+			children = (
+				25FC26641C72C6AE00D16916 /* _________UITests.m */,
+				25FC26661C72C6AE00D16916 /* Info.plist */,
+			);
+			path = "地图定位及语言播报UITests";
+			sourceTree = "<group>";
+		};
+		25FC26911C72DA6300D16916 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				2516A8E81CE9758B003458D6 /* MAMapKit.framework */,
+				2529D45E1CDC3F9700066A7F /* AMapSearchKit.framework */,
+				25FC26EA1C795B3B00D16916 /* AudioToolbox.framework */,
+				25FC26E81C795B3100D16916 /* AddressBook.framework */,
+				25FC26E61C795B2400D16916 /* AVFoundation.framework */,
+				25FC269B1C78B69F00D16916 /* iflyMSC.framework */,
+				25FC26931C756C0C00D16916 /* AMapLocationKit.framework */,
+				25FC268C1C72CA2400D16916 /* Security.framework */,
+				25FC268A1C72CA1600D16916 /* libc++.tbd */,
+				25FC26881C72CA0A00D16916 /* libstdc++.6.0.9.tbd */,
+				25FC26861C72C9F900D16916 /* libz.tbd */,
+				25FC26841C72C9E600D16916 /* SystemConfiguration.framework */,
+				25FC26821C72C9D000D16916 /* CoreTelephony.framework */,
+				25FC26801C72C9C200D16916 /* CoreLocation.framework */,
+				25FC267E1C72C9B600D16916 /* OpenGLES.framework */,
+				25FC267C1C72C9A600D16916 /* QuartzCore.framework */,
+				25FC267A1C72C99700D16916 /* CoreGraphics.framework */,
+				25FC26781C72C98A00D16916 /* Foundation.framework */,
+				25FC26761C72C97C00D16916 /* UIKit.framework */,
+			);
+			name = Framework;
+			path = "地图定位及语言播报/Framework";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25FC263B1C72C6AE00D16916 /* 地图定位及语言播报 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25FC26691C72C6AE00D16916 /* Build configuration list for PBXNativeTarget "地图定位及语言播报" */;
+			buildPhases = (
+				25FC26381C72C6AE00D16916 /* Sources */,
+				25FC26391C72C6AE00D16916 /* Frameworks */,
+				25FC263A1C72C6AE00D16916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "地图定位及语言播报";
+			productName = "地图定位及语言播报";
+			productReference = 25FC263C1C72C6AE00D16916 /* 地图定位及语言播报.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25FC26541C72C6AE00D16916 /* 地图定位及语言播报Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25FC266C1C72C6AE00D16916 /* Build configuration list for PBXNativeTarget "地图定位及语言播报Tests" */;
+			buildPhases = (
+				25FC26511C72C6AE00D16916 /* Sources */,
+				25FC26521C72C6AE00D16916 /* Frameworks */,
+				25FC26531C72C6AE00D16916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25FC26571C72C6AE00D16916 /* PBXTargetDependency */,
+			);
+			name = "地图定位及语言播报Tests";
+			productName = "地图定位及语言播报Tests";
+			productReference = 25FC26551C72C6AE00D16916 /* 地图定位及语言播报Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25FC265F1C72C6AE00D16916 /* 地图定位及语言播报UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25FC266F1C72C6AE00D16916 /* Build configuration list for PBXNativeTarget "地图定位及语言播报UITests" */;
+			buildPhases = (
+				25FC265C1C72C6AE00D16916 /* Sources */,
+				25FC265D1C72C6AE00D16916 /* Frameworks */,
+				25FC265E1C72C6AE00D16916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25FC26621C72C6AE00D16916 /* PBXTargetDependency */,
+			);
+			name = "地图定位及语言播报UITests";
+			productName = "地图定位及语言播报UITests";
+			productReference = 25FC26601C72C6AE00D16916 /* 地图定位及语言播报UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25FC26341C72C6AE00D16916 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "叶振龙";
+				TargetAttributes = {
+					25FC263B1C72C6AE00D16916 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 59T7N8PU47;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					25FC26541C72C6AE00D16916 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 25FC263B1C72C6AE00D16916;
+					};
+					25FC265F1C72C6AE00D16916 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 25FC263B1C72C6AE00D16916;
+					};
+				};
+			};
+			buildConfigurationList = 25FC26371C72C6AE00D16916 /* Build configuration list for PBXProject "地图定位及语言播报" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25FC26331C72C6AE00D16916;
+			productRefGroup = 25FC263D1C72C6AE00D16916 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25FC263B1C72C6AE00D16916 /* 地图定位及语言播报 */,
+				25FC26541C72C6AE00D16916 /* 地图定位及语言播报Tests */,
+				25FC265F1C72C6AE00D16916 /* 地图定位及语言播报UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25FC263A1C72C6AE00D16916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2516A8961CE96588003458D6 /* NaviViewController.xib in Resources */,
+				25FC264F1C72C6AE00D16916 /* LaunchScreen.storyboard in Resources */,
+				25FC264C1C72C6AE00D16916 /* Assets.xcassets in Resources */,
+				25FC26751C72C94D00D16916 /* AMap.bundle in Resources */,
+				25FC264A1C72C6AE00D16916 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FC26531C72C6AE00D16916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FC265E1C72C6AE00D16916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25FC26381C72C6AE00D16916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2516A8991CE9693A003458D6 /* MapNavigationManager.m in Sources */,
+				2516A8941CE96560003458D6 /* NaviViewController.m in Sources */,
+				25FC26471C72C6AE00D16916 /* ViewController.m in Sources */,
+				25FC26441C72C6AE00D16916 /* AppDelegate.m in Sources */,
+				25FC26411C72C6AE00D16916 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FC26511C72C6AE00D16916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FC265A1C72C6AE00D16916 /* _________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FC265C1C72C6AE00D16916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FC26651C72C6AE00D16916 /* _________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25FC26571C72C6AE00D16916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25FC263B1C72C6AE00D16916 /* 地图定位及语言播报 */;
+			targetProxy = 25FC26561C72C6AE00D16916 /* PBXContainerItemProxy */;
+		};
+		25FC26621C72C6AE00D16916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25FC263B1C72C6AE00D16916 /* 地图定位及语言播报 */;
+			targetProxy = 25FC26611C72C6AE00D16916 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25FC26481C72C6AE00D16916 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25FC26491C72C6AE00D16916 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25FC264D1C72C6AE00D16916 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25FC264E1C72C6AE00D16916 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25FC26671C72C6AE00D16916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25FC26681C72C6AE00D16916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25FC266A1C72C6AE00D16916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/地图定位及语言播报/Extern",
+					"$(SRCROOT)/地图定位及语言播报/Framework",
+					"$(PROJECT_DIR)/地图定位及语言播报/Framework",
+				);
+				INFOPLIST_FILE = "地图定位及语言播报/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/地图定位及语言播报/Framework";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "arronYip.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25FC266B1C72C6AE00D16916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/地图定位及语言播报/Extern",
+					"$(SRCROOT)/地图定位及语言播报/Framework",
+					"$(PROJECT_DIR)/地图定位及语言播报/Framework",
+				);
+				INFOPLIST_FILE = "地图定位及语言播报/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/地图定位及语言播报/Framework";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "arronYip.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25FC266D1C72C6AE00D16916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "地图定位及语言播报Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "arronYip.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/地图定位及语言播报.app/地图定位及语言播报";
+			};
+			name = Debug;
+		};
+		25FC266E1C72C6AE00D16916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "地图定位及语言播报Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "arronYip.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/地图定位及语言播报.app/地图定位及语言播报";
+			};
+			name = Release;
+		};
+		25FC26701C72C6AE00D16916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "地图定位及语言播报UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "arronYip.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "地图定位及语言播报";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		25FC26711C72C6AE00D16916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "地图定位及语言播报UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "arronYip.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "地图定位及语言播报";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25FC26371C72C6AE00D16916 /* Build configuration list for PBXProject "地图定位及语言播报" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FC26671C72C6AE00D16916 /* Debug */,
+				25FC26681C72C6AE00D16916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25FC26691C72C6AE00D16916 /* Build configuration list for PBXNativeTarget "地图定位及语言播报" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FC266A1C72C6AE00D16916 /* Debug */,
+				25FC266B1C72C6AE00D16916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25FC266C1C72C6AE00D16916 /* Build configuration list for PBXNativeTarget "地图定位及语言播报Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FC266D1C72C6AE00D16916 /* Debug */,
+				25FC266E1C72C6AE00D16916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25FC266F1C72C6AE00D16916 /* Build configuration list for PBXNativeTarget "地图定位及语言播报UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FC26701C72C6AE00D16916 /* Debug */,
+				25FC26711C72C6AE00D16916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25FC26341C72C6AE00D16916 /* Project object */;
+}
